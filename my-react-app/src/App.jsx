@@ -1,6 +1,7 @@
 import './App.css';
 import { useState, useEffect } from 'react';
 import PokemonCards from './components/PokemonCards';
+import CatchingPokemonIcon from '@mui/icons-material/CatchingPokemon';
 
 function App() {
   const [characters, setCharacters] = useState([]);
@@ -56,7 +57,7 @@ function App() {
 
   return (
     <div className="App">
-      <h1>Pokemons</h1>
+      <h1>Pokem<CatchingPokemonIcon sx={{ fontSize: 50 }}/>ns </h1>
       <input type="text" placeholder="Search Pokémon" value={search} onChange={handleSearch} />
       {characters.length === 0 && <p>No Pokemon found</p>}
       <PokemonCards characters={characters} />

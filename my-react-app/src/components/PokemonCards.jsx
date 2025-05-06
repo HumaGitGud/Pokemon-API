@@ -12,14 +12,16 @@ const PokemonCards = ({ characters }) => {
     }
 
     return (
+        <>
         <div className="pokemon-cards">
             {characters.map((c, index) => (
                 <div key={index} className="card" onClick={() => onCharacterClick(c.url)}>
                     {c.name}
                 </div>
             ))}
-            {character && <PokemonDetails character={character} />} 
         </div>
+        {character && <PokemonDetails character={character} />} 
+        </>
     );
 };
 
