@@ -1,3 +1,43 @@
+# Pokemon Browser
+
+A nice, responsive React application for exploring and searching Pokémon using the [PokeAPI](https://pokeapi.co/).
+
+---
+
+## Features
+
+- **Live Search** – Filter Pokémon by name in real time
+- **Pagination** – Browse through 1000+ Pokémon with navigation
+- **Modern UI** – Clean design with CSS and one Material UI icon
+- **Component-Based** – Modular, maintainable architecture
+- **React Hooks** – Efficient state and effect management using `useState` and `useEffect`
+
+---
+
+## Tech Stack
+
+- React (Vite)
+- JavaScript (ES6+)
+- HTML/CSS
+- PokeAPI
+- Material UI Icons
+
+---
+
+## Getting Started
+
+```bash
+# Clone the repository
+git clone https://github.com/your-username/pokemon-browser.git
+
+# Install dependencies
+npm install
+
+# Start the development server
+npm run dev
+
+
+
 # useEffect Lab
 
 ## Learning Goals
