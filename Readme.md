@@ -1,8 +1,10 @@
 # Pokemon Browser
 
 A nice, responsive React application for exploring and searching Pokémon using the [PokeAPI](https://pokeapi.co/).
-Features: live search, pagination, modern ui, components, react hooks
-Tech stack: React (Vite), JavaScript (ES6+), html/css, PokeAPI, Material UI
+
+- Features: live search, pagination, modern ui, components, react hooks
+- Tech stack: React (Vite), JavaScript (ES6+), html/css, PokeAPI, Material UI
+
 ---
 
 ## Getting Started
