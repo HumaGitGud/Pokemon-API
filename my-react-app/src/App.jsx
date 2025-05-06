@@ -4,7 +4,7 @@ import PokemonCards from './components/PokemonCards';
 
 function App() {
   const [characters, setCharacters] = useState([]);
-  const [page, setPage] = useState([0, 5]);
+  const [page, setPage] = useState([0, 20]);
 
   useEffect(() => {
     fetchPokemon(page);
@@ -19,20 +19,20 @@ function App() {
   }
 
   const onClickNext = () => {
-    if (page[1] < 1000) {
-      setPage((prev) => [prev[0]+5, prev[1]+5]);
+    if (page[0] + 20 < 1000) {
+      setPage(prev => [prev[0] + 20, prev[1] + 20]);
     } else {
-      setPage([0,5]);
+      setPage([0, 20]);
     }
   };
   
   const onClickBack = () => {
-    if (page[0] <= 0) {
-      setPage([995, 1000]);
+    if (page[0] - 20 >= 0) {
+      setPage(prev => [prev[0] - 20, prev[1] - 20]);
     } else {
-      setPage((prev) => [prev[0]-5, prev[1]-5]);
+      setPage([0, 20]);
     }
-  };
+  };  
   
   return (
     <div className="App">
