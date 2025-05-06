@@ -5,8 +5,6 @@ A nice, responsive React application for exploring and searching Pokémon using 
 - Features: live search, pagination, modern ui, components, react hooks
 - Tech stack: React (Vite), JavaScript (ES6+), html/css, PokeAPI, Material UI
 
----
-
 ## Getting Started
 
 ```bash
