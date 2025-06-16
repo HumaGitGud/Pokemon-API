@@ -9,7 +9,7 @@ A nice, responsive React application for exploring and searching Pokémon using 
 
 ```bash
 # Clone the repository
-git clone https://github.com/your-username/pokemon-browser.git
+git clone https://github.com/HumaGitGud/Pokemon-API.git
 # Install dependencies
 npm install
 # Start the development server
